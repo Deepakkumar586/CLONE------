@@ -17,6 +17,51 @@
 }
 
 
+/* Feel Special component some common css */
+.photo-section{
+  height: 100%;
+  min-height: 100vh;
+  min-width: 100%;
+  background-size: cover;
+}
+.photo-section-child{
+  padding: 240px 0px 100px;
+}
+.photo-section-heading{
+  font-size: 100px;
+  line-height: 96px;
+  font-weight: 700;
+  max-width: 700px;
+
+}
+.photo-section-subHeading{
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+  max-width: 638px;
+  margin-top: 16px;
+}
+.photo-section-description{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  max-width: 638px;
+  margin-top: 200px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* mobile */
 .hamburger {
     padding: 15px 15px;
@@ -97,6 +142,12 @@
         max-width: 80%;
 
     }
+    .photo-section-heading{
+      max-width: 670px;
+    }
+    .photo-section-child{
+      padding: 100px 0px;
+    }
 }
 
 @media all and (max-width:767px){
@@ -106,6 +157,25 @@
     }
     .non-mobile{
         display: none !important;
+    }
+    .photo-section-heading{
+      font-size: 65px;
+      line-height: 58px;
+    }
+    .photo-section-subHeading{
+      font-size: 18px;
+      line-height: 24px;
+      margin-top: 26px;
+    }
+    .photo-section-description{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      margin-top: 500px;
+
+    }
+    .photo-section-child{
+      padding: 195px 0px 90px;
     }
 }
 

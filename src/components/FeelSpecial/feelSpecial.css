@@ -1,0 +1,22 @@
+.feel-specail{
+    background-color: var(--bg-red);
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg);
+
+}
+
+@media all and (max-width:1279px){
+    .feel-specail{
+        background-position: center bottom;
+    }
+}
+
+
+
+@media all and (max-width:767px){
+    .feel-specail{
+        background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg-mobile.jpg);
+        background-position: center right;
+        min-height: 1150px;
+    }
+}
+
