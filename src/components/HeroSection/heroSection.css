@@ -17,6 +17,22 @@
     line-height: 38px;
 }
 
+
+/* claim label */
+.hero-claim{
+    background-color: var(--bg-gray);
+    width: 100%;
+    position: absolute;
+    height: 72px;
+    font-size: 25px;
+    line-height: 30px;
+    font-style: 600;
+}
+.claim-text{
+    color: var(--link-blue);
+    margin-left: 17px;
+}
+
 @media all and (max-width:1279px){
             .hero-heading{
                 font-size: 82px;
@@ -25,6 +41,9 @@
             .hero-subheading{
                 font-size: 25px;
 
+            }
+            .claim-text{
+                margin-left: 0px;
             }
 }
 
@@ -46,6 +65,10 @@
         line-height: 22px;
         margin: 35px 0px;
         
+    }
+    .hero-claim{
+        height: 55px;
+        font-size: 13px;
     }
 
 }
