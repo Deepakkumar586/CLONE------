@@ -8,6 +8,9 @@ import CredSecurity from '../components/CredSecurity'
 import BrandsLove from '../components/BrandsLove'
 import WindowPeak from '../components/WindowPeak'
 import MobileScroll from '../components/MobileScroll'
+import CredStory from '../components/CredStory'
+import AppRating from '../components/AppRating'
+import Footer from '../components/Footer'
 
 function HomePage() {
   return (
@@ -25,7 +28,9 @@ function HomePage() {
       </div>
 
       <CredSecurity />
-
+      <CredStory />
+      <AppRating />
+      <Footer />
     </>
   )
 }

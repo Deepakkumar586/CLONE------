@@ -1,0 +1,70 @@
+
+.app-rating{
+    padding: 200px 0px;
+    justify-content: space-between;
+}
+.app-rating-value{
+    font-size: 160px;
+    line-height: 120px;
+    padding-right: 16px;
+    font-weight: 700;
+}
+.app-rating-star{
+    height: 28px;
+    width: 179px;
+}
+.app-rating-platform{
+    font-size: 60px;
+    font-weight: 700;
+    padding-left: 16px;
+    line-height: 55px;
+}
+.app-rating-block{
+    margin-bottom: 70px;
+}
+.app-rating-icon{
+    height: 30px;
+    margin-right:6px ;
+}
+.app-rating-button{
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 15px 30px !important;
+}
+
+
+
+@media all and (max-width:1279px){
+    .app-rating{
+        padding: 100px 0px;
+    }
+    .app-rating-value{
+        font-size: 100px;
+    }
+    .app-rating-star{
+        width: 120px;
+        height: 18px;
+    }
+    .app-rating-platform{
+        font-size: 45px;
+        line-height: 45px;
+    }
+}
+
+
+
+@media all and (max-width:767px){
+    .app-rating{
+        padding:70px 0px;
+        flex-direction: column;
+    }
+    .app-rating-value{
+        font-size: 90px;
+    }
+   
+    .app-rating-platform{
+        font-size: 31px;
+        line-height: 32px;
+        align-self: center;
+    }
+}
